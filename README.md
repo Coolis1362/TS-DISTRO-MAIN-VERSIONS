@@ -23,5 +23,5 @@ And Now You Can Use It! (But First go To The folder where You did e.g. If It Was
 
 ## Contact Tadeo A Gonzalez
 
-[Gmail](tadeotherocketbuilder@gmail.com)
-[Outlook\Microsoft](tadeotherocketbuilder@outlook.com)
+[Gmail](mailto:\\tadeotherocketbuilder@gmail.com)
+[Outlook\Microsoft](mailto:\\tadeotherocketbuilder@outlook.com)
