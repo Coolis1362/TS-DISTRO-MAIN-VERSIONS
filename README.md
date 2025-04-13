@@ -19,7 +19,7 @@ Clone the repository to get started:
 git clone https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git
 ```
 
-And Now You Can Use The It
+And Now You Can Use It! (But First go To The folder where You did e.g. If It Was C:\> git clone https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git Then It's In C:\
 
 ## Contact Tadeo A Gonzalez
 
