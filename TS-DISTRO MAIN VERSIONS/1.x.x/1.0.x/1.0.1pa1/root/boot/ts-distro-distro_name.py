@@ -9,7 +9,7 @@ def main(): # Replace put_distro_name_here with the name of your distro
     DISTRO_NAME = "MAIN" # Replace distro_name with the name of your distro
     print(f"Welcome To {DISTRO_NAME_PREFIX} {DISTRO_NAME}!")
     time.sleep(2)
-    print("This is Based on TS-KERNEL 1.0.0")
+    print("This is Based on TS-KERNEL 1.0.1pa1")
     time.sleep(2)
     print("Loading...")
     time.sleep(2)
