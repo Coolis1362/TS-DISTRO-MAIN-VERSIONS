@@ -6,7 +6,7 @@ Welcome to **TS-DISTRO MAIN Versions**! This repository contains all released ve
 
 ## Features
 
-- **TS-KERNEL Compatibility:** Built on **TS-KERNEL 1.0.0** for seamless integration.
+- **TS-KERNEL Compatibility:** Built on **TS-KERNEL Versions** for seamless integration.
 - **Python Support:** Fully compatible with **Python 3.14a7**.
 - **Modular System:** Designed for customization and expandability.
 - **Lightweight:** Perfect for developers and power users.
