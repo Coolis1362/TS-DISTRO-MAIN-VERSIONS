@@ -5,6 +5,7 @@ Welcome to **TS-DISTRO MAIN Versions**! This repository contains all released ve
 ---
 
 ## Features
+
 - **TS-KERNEL Compatibility:** Built on **TS-KERNEL 1.0.0** for seamless integration.
 - **Python Support:** Fully compatible with **Python 3.14a7**.
 - **Modular System:** Designed for customization and expandability.
@@ -15,11 +16,12 @@ Welcome to **TS-DISTRO MAIN Versions**! This repository contains all released ve
 ## How to Clone This Repository
 
 Clone the repository to get started:
+
 ```bash
 git clone https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git
 ```
 
-And Now You Can Use It! (But First go To The folder where You did e.g. If It Was C:\\> git clone https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git Then It's In C:\\
+And Now You Can Use It! (But first, go to the folder where you cloned it. For example, if you ran `git clone [TS-DISTRO-MAIN-VERSIONS](https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git)` in `C:\\`, then it's in `C:\\`.)
 
 ## Contact Tadeo A Gonzalez
 
