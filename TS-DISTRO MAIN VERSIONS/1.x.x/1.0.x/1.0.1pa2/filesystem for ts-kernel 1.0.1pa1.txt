@@ -34,4 +34,8 @@ root # root folder
 |
 |
 |
-|- ts-desktop
+|- ts-desktop ----------------|
+|                             |
+|                             |- ts-desktop100.bat\.py # Boot Files
+|                             |
+|                             |- ts-desktop100.version\.distro.bat # .version Is for Current Version and .distro Is For Current Distro
