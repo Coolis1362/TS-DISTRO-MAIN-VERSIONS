@@ -22,7 +22,7 @@ def main(): # Replace put_distro_name_here with the name of your distro
     os.system("cls" if os.name == "nt" else "clear")
     time.sleep(2)
     print("****************************************************************")
-    print(f"*        WELCOME TO {DISTRO_NAME_PREFIX} {DISTRO_NAME}                      *") # The Spaces Depends On How Long The Distro Name
+    print(f"*        WELCOME TO {DISTRO_NAME_PREFIX} {DISTRO_NAME}                             *") # The Spaces Depends On How Long The Distro Name
     print("*                        NO COPYRIGHT                          *")
     print("*             YOU CAN MAKE A DISTRO BASED ON IT!               *")
     print("*                  TYPE 'help' FOR COMMANDS                    *")
