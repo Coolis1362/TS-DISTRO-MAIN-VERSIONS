@@ -39,7 +39,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
             print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
             print("tsdesktop - start TS-DESKTOP and end cmd.exe")
             print("switch user --USER - Switch to user USER")
-            print("add your commands here") # Replace It With Your Comamnds and On
+            print("distro - Show current Distro")
 
         elif tsdistrocommand == "exit":
             print("Exiting...")
@@ -69,6 +69,9 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
                 print(f"ERROR 758: ERROR FOUND ERROR: {e}")
         elif tsdistrocommand == "switch user --USER":
             MAIN_USER_NAME = "USER"
+
+        elif tsdistrocommand == "distro":
+            print(f"DISTRO: {DISTRO_NAME}")
 
 
 
