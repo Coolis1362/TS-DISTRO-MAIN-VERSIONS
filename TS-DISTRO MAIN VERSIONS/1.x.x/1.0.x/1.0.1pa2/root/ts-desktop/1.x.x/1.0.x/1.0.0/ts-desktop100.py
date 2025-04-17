@@ -21,7 +21,7 @@ def show_version_info():
     about_screen.blit(title, (50, 50))
     about_screen.blit(version, (50, 100))
     font = pygame.font.Font(None, 36)
-    test_text_version = font.render("version_number", True, (0, 0, 0))  # Replace "version_name" With Version number
+    test_text_version = font.render("1.0.0", True, (0, 0, 0))  # Replace "version_name" With Version number
     about_screen.blit(test_text_version, (50, 150))  # Correct placement
 
     # Display the About screen over the main GUI
@@ -37,7 +37,7 @@ def show_version_info():
         screen.blit(about_screen, (200, 150))  # Center the "About" window on the screen
         pygame.display.flip()  # Update the display
         if not running_about:
-            pygame.display.set_caption("TS-GUI TEST 1.0.0 LANPACK ENG")  # Reset the window caption
+            pygame.display.set_caption("TS-DESKTOP 1.0.0 For TS-KERNEL 1.0.1pa2")  # Reset the window caption
 
 
 
