@@ -21,7 +21,7 @@ Clone the repository to get started:
 git clone https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git
 ```
 
-And Now You Can Use It! (But first, go to the folder where you cloned it. For example, if you ran `git clone [TS-DISTRO-MAIN-VERSIONS](https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git)` in `C:\`, then it's in `C:\`.)
+And Now You Can Use It! (But first, go to the folder where you cloned it. For example, if you ran `git clone https://github.com/Coolis1362/TS-DISTRO-MAIN-VERSIONS.git` in `C:\`, then it's in `C:\`.)
 
 ## Contact Tadeo A Gonzalez
 
