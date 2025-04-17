@@ -8,3 +8,15 @@
 ## 1.0.1pa3
 
 - Upcoming
+
+## pa Versions
+
+- pa3
+- pa4
+- pa5
+- pa6
+- pa7
+  
+## a Versions
+
+- Alpha Versions Will Be Being Made after pa7 Is Released
