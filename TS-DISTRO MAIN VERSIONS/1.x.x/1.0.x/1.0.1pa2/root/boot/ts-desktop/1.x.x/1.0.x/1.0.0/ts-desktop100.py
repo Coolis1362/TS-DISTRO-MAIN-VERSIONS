@@ -45,7 +45,8 @@ def show_version_info():
 print("If You're In The \"About TS-DESKTOP/TS-DISTO Distro\" Tab Click The Windows Key and Clcik The Python Icon And Click The x And You Be Back to The Desktop!")
 time.sleep(1)
 print("CONSOLE PRINTINGS AND EVENTS:")
-print("Startin pygame and TS-DESKTOP...")
+print("Starting pygame and TS-DESKTOP...")
+time.sleep(1)
 
 pygame.init()
 
