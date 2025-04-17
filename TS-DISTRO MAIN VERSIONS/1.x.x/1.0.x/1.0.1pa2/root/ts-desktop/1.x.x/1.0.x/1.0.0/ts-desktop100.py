@@ -1,4 +1,4 @@
-import pygame
+import pygame # type: ignore
 import sys
 import webbrowser
 import os
@@ -7,7 +7,7 @@ import time
 
 def show_version_info():
     # Create a new "About" surface
-    DISTRO_NAME = "disto_name" # Replace With Disto Name
+    DISTRO_NAME = "MAIN" # Replace With Disto Name
     about_width, about_height = 400, 200
     about_screen = pygame.Surface((about_width, about_height))
     about_screen.fill((255, 255, 255))  # Set white background
