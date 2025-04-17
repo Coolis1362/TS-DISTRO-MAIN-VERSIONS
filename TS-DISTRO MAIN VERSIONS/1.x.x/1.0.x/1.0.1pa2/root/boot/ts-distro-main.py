@@ -3,7 +3,7 @@ import os
 from ts_kernel_language.tskerlan import tskerlan
 
 
-def put_distro_name_here(): # Replace put_distro_name_here with the name of your distro
+def main(): # Replace put_distro_name_here with the name of your distro
     MAIN_USER_NAME = "ADMIN_USER"
     DISTRO_NAME_PREFIX = "TS-DISTRO"
     DISTRO_NAME = "MAIN" # Replace distro_name with the name of your distro
@@ -77,7 +77,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
 
 
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
-    put_distro_name_here() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
+    main() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
 
 
 
