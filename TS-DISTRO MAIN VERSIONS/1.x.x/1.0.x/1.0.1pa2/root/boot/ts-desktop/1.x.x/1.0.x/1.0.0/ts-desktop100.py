@@ -145,3 +145,5 @@ while running:
 # Quit Pygame when the main loop ends
 pygame.quit()
 sys.exit()
+
+# When You Run It via Th Python Interpiler, I Won't Work But if You run The .ex eor .bat File It will Work
