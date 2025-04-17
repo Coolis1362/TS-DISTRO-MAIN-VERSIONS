@@ -60,7 +60,8 @@ def main(): # Replace put_distro_name_here with the name of your distro
               print(f"Error: An issue occurred while executing 'tskerlan': {e}")
         elif tsdistrocommand == "tsdesktop":
             try:
-                os.chdir("\"%~dp0\"\\ts-desktop")
+                os.chdir("\"%~dp0\"")
+                os.chdir("ts-desktop\\1.x.x\\1.0.x\\1.0.0")
                 os.system("ts-desktop100")
                 time.sleep(1)
                 os.system("taskkill /F /IM cmd.exe")
