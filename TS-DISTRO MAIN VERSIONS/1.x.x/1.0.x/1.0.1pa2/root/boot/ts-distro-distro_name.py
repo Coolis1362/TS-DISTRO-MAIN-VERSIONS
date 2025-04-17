@@ -60,7 +60,7 @@ def put_distro_name_here(): # Replace put_distro_name_here with the name of your
               print(f"Error: An issue occurred while executing 'tskerlan': {e}")
         elif tsdistrocommand == "tsdesktop":
             try:
-                os.chdir("C:\\Users\\<Username>\\<NestedFolder>\\Desktop\\TS-KERNEL VERSIONS\\1.x.x\\1.0.x\\TS-KERNEL 1.0.1\\Pre-alpha\\pa2\\root\\ts-desktop\\1.x.x\\1.0.x\\1.0.0\\")
+                os.chdir("\"%~dp0\"")
                 os.system("ts-desktop100")
                 time.sleep(1)
                 os.system("taskkill /F /IM cmd.exe")
