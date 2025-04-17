@@ -121,7 +121,7 @@ while running:
                         os.system("start explorer.exe")
                     elif app["label"] == "Settings":
                         print("Opening Settings...")
-                        os.system("control")
+                        os.system("start control")
 
                     elif app["label"] == "About TS-DESKTOP/TS-DISTRO Distro":
                         show_version_info()
