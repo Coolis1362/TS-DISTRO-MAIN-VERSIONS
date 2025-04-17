@@ -121,8 +121,7 @@ while running:
                         os.system("start explorer.exe")
                     elif app["label"] == "Settings":
                         print("Opening Settings...")
-                        os.system("cd C:\\Windows\\ImmersiveControlPanel")
-                        os.system("SystemSettings.exe")
+                        os.system("control")
 
                     elif app["label"] == "About TS-DESKTOP/TS-DISTRO Distro":
                         show_version_info()
