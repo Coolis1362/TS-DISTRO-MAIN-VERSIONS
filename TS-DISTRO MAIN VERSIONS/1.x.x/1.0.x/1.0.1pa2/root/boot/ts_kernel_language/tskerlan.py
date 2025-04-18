@@ -1,4 +1,5 @@
 from ts_kernel_language.grammer.print.print import printtext
+import sys
 
 
 def tskerlan():
@@ -14,4 +15,8 @@ def tskerlan():
 
         elif user_input == "help":
             print("print")
-            print(" help")
+            print("help")
+            print("exit")
+
+        elif user_input == "exit":
+            sys.exit(0)
