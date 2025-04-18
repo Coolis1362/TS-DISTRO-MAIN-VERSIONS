@@ -10,7 +10,7 @@ def show_version_info():
     DISTRO_NAME = "MAIN" # Replace With Disto Name
     about_width, about_height = 400, 200
     about_screen = pygame.Surface((about_width, about_height))
-    about_screen.fill((255, 255, 255))  # Set white background
+    about_screen.fill((0, 0, 0))  # Set white background
 
     # Add text
     font = pygame.font.Font(None, 36)
