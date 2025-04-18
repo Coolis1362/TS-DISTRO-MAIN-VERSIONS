@@ -57,7 +57,7 @@ def main(): # Replace put_distro_name_here with the name of your distro
             try:
                 tskerlan()
             except Exception as e:
-              print(f"Error: An issue occurred while executing 'tskerlan': {e}")
+              print(f"Error 305: An issue occurred while executing 'tskerlan': {e}")
         elif tsdistrocommand == "tsdesktop":
             try:
                 os.system("cd %~dp0")
