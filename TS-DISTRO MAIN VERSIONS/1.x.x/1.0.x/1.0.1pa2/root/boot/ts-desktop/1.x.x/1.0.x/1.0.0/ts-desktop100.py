@@ -7,37 +7,46 @@ import time
 
 def show_version_info():
     # Create a new "About" surface
-    DISTRO_NAME = "MAIN" # Replace With Disto Name
+    DISTRO_NAME = "MAIN" # Replace with Distro Name
     about_width, about_height = 400, 200
     about_screen = pygame.Surface((about_width, about_height))
     about_screen.fill((0, 0, 0))  # Set white background
 
-    # Add text
-    font = pygame.font.Font(None, 36)
-    title = font.render("About TS-DESKTOP and Distro", True, (0, 0, 0))  # Black text
-    version = font.render(f"TS-DESKTOP: 1.0.0 TS-DISTRO: {DISTRO_NAME}", True, (0, 0, 0))
+    # Initialize the About screen as a Surface
+about_screen = pygame.Surface((400, 300))  # Set the dimensions for the overlay
+about_screen.fill((255, 255, 255))  # Fill the background with white
 
-    # Draw text onto the About screen
-    about_screen.blit(title, (50, 50))
-    about_screen.blit(version, (50, 100))
-    font = pygame.font.Font(None, 36)
-    test_text_version = font.render("1.0.0", True, (0, 0, 0))  # Replace "version_name" With Version number
-    about_screen.blit(test_text_version, (50, 150))  # Correct placement
+# Add text
+font = pygame.font.Font(None, 36)
+title = font.render("About TS-DESKTOP and Distro", True, (0, 0, 0))  # Black text
+version = font.render(f"TS-DESKTOP: 1.0.0 TS-DISTRO: MAIN", True, (0, 0, 0))  # Black text
 
-    # Display the About screen over the main GUI
-    running_about = True
-    while running_about:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN):
-                running_about = False  # Exit when the user presses ENTER or closes the window
-        pygame.display.set_caption("About TS-DOS/TS-GUI")  # Change the window caption
+# Draw text onto the About screen
+about_screen.blit(title, (50, 50))
+about_screen.blit(version, (50, 100))
 
-        # Render the "About" window as an overlay
-        screen = pygame.display.get_surface()  # Get the existing main screen
-        screen.blit(about_screen, (200, 150))  # Center the "About" window on the screen
-        pygame.display.flip()  # Update the display
-        if not running_about:
-            pygame.display.set_caption("TS-DESKTOP 1.0.0 For TS-KERNEL 1.0.1pa2")  # Reset the window caption
+# Additional text for version number
+test_text_version = font.render("1.0.0", True, (0, 0, 0))  # Replace "version_name" with version number
+about_screen.blit(test_text_version, (50, 150))  # Correct placement
+
+# Display the About screen over the main GUI
+running_about = True
+while running_about:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT or (event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN):
+            running_about = False  # Exit when the user presses ENTER or closes the window
+
+    pygame.display.set_caption("About TS-DOS/TS-GUI")  # Change the window caption
+
+    # Get the existing main screen
+    screen = pygame.display.get_surface()
+
+    # Render the "About" screen as an overlay
+    screen.fill((200, 200, 200))  # Optional: Fill main screen with a gray background
+    screen.blit(about_screen, (200, 150))  # Center the "About" window on the screen
+    pygame.display.flip()  # Update the display
+
+pygame.display.set_caption("TS-DESKTOP 1.0.0 For TS-KERNEL 1.0.1pa2")  # Reset the window caption
 
 
 
