@@ -19,9 +19,9 @@ Tell them where to go, how often they can expect to get an update on a
 reported vulnerability, what to expect if the vulnerability is accepted or
 declined, etc.
 
-## Out Of Support Date (No More Updates)
+## Out Of Support Dates (No More Updates)
 
-| Version | Out Of Support Date |
+| Version | Out Of Support Dates |
 ---------- | --------------------
 | 1.0.0 | When 1.0.1a1 Releases |
 | 1.0.1pa1 and pa2 | When 1.0.1a1 Releases Also |
