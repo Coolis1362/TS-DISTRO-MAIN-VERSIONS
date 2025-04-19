@@ -22,6 +22,6 @@ declined, etc.
 ## Out Of Support Date (No More Updates)
 
 | Version | Out Of Support Date |
--------------------------------
+---------- | --------------------
 | 1.0.0 | When 1.0.1a1 Releases |
 | 1.0.1pa1 and pa2 | When 1.0.1a1 Releases Also |
