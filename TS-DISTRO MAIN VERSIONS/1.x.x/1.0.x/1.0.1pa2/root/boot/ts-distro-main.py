@@ -2,6 +2,7 @@ import time
 import os
 from ts_kernel_language.tskerlan import tskerlan
 import datetime
+from ts_kernel_language.grammer.print.print import printtext
 
 
 
@@ -19,6 +20,12 @@ def boot():
         print("distro - Show current Distro")
         time.sleep(0.05)
         print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: Commands")
+    except Exception as e:
+        print(f"BOOT: ERROR: Error Code 634: {e}")
+        return False
+    print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: tskerlan Booting print Code From tskerlan For Test...")
+    try:
+        printtext()
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
 
