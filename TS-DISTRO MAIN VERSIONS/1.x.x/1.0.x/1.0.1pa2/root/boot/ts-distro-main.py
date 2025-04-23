@@ -31,6 +31,7 @@ def boot():
         return False
     print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: tskerlan")
     print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
+    return True
 
 
 
@@ -109,7 +110,8 @@ def main(): # Replace put_distro_name_here with the name of your distro
 
 
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
-    main() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
+    if boot():
+        main() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
 
 
 
