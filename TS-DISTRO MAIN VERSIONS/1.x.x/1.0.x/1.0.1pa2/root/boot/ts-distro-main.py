@@ -1,6 +1,25 @@
 import time
 import os
 from ts_kernel_language.tskerlan import tskerlan
+import datetime
+
+
+
+def boot():
+    print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: Commands Booting help As Expanple...")
+    try:
+        print("Commands:")
+        print("help - Show this help message")
+        print("exit - Exit the console")
+        print("clear - Clear the console")
+        print("whoami - Show the current user")
+        print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
+        print("tsdesktop - start TS-DESKTOP and end cmd.exe")
+        print("switch user --USER - Switch to user USER")
+        print("distro - Show current Distro")
+    except Exception as e:
+        print(f"BOOT: ERROR: Error Code 634: {e}")
+
 
 
 def main(): # Replace put_distro_name_here with the name of your distro
