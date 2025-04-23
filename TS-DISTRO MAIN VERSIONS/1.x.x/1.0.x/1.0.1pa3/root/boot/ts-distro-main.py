@@ -4,6 +4,7 @@ from ts_kernel_language.tskerlan import tskerlan
 import datetime
 from ts_kernel_language.grammer.print.print import printtext
 import sys
+from shutdown_windows import shutdown_windows
 
 
 
@@ -112,6 +113,16 @@ def main(): # Replace put_distro_name_here with the name of your distro
 
         elif tsdistrocommand == "distro":
             print(f"DISTRO: {DISTRO_NAME}")
+        
+        elif tsdistrocommand == "shutdown --host_os":
+            try:
+                shutdown_windows()
+            except Exception as e:
+                print(f"ERROR CODE 575: {e}")
+        elif tsdistrocommand == "ts-package":
+            os.system("git clone https://github.com/Coolis1362/ts-package-OFFICAL-PACKAGE-MANAGER")
+            os.chdir("ts-package-OFFICAL-PACKAGE-MANAGER\\ts-package\\main")
+            os.system("ts-package.bat")
 
 
 
