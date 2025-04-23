@@ -3,11 +3,15 @@ import os
 from ts_kernel_language.tskerlan import tskerlan
 import datetime
 from ts_kernel_language.grammer.print.print import printtext
+import sys
 
 
 
 def boot():
+    print("starting BOOT...")
+    time.sleep(1)
     print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: Commands Booting help As Expanple...")
+    time.sleep(1)
     try:
         print("Commands:")
         print("help - Show this help message")
@@ -113,6 +117,9 @@ if __name__ == "__main__": # DON'T REMOVE THIS LINE
     if boot():
         os.system("cls")
         main() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
+    else:
+        print("BOOT Failed")
+        sys.exit(0)
 
 
 
