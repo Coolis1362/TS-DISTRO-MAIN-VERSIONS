@@ -28,6 +28,7 @@ def boot():
         printtext()
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
+        return False
 
 
 
