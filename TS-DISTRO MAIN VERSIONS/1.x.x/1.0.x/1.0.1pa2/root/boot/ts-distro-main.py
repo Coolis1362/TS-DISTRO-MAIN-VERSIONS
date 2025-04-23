@@ -29,6 +29,7 @@ def boot():
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
+    print("TIME:", time.time(), datetime.datetime.now(), "BOOTES: tskerlan")
 
 
 
