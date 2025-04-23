@@ -8,7 +8,7 @@
 ## 1.0.1pa3
 
 - Added ts-package As Command
-- TS-KERNEL 1.0.1pa3
+- TS-KERNEL 1.0.1pa4
 
 ## 1.0.1pa4
 
