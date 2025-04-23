@@ -115,7 +115,6 @@ def main(): # Replace put_distro_name_here with the name of your distro
 
 
 
-
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
     if boot():
         os.system("cls")
