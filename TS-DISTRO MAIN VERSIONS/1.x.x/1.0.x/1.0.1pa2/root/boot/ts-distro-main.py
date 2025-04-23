@@ -17,6 +17,8 @@ def boot():
         print("tsdesktop - start TS-DESKTOP and end cmd.exe")
         print("switch user --USER - Switch to user USER")
         print("distro - Show current Distro")
+        time.sleep(0.05)
+        print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: Commands")
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
 
