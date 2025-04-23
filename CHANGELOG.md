@@ -24,4 +24,4 @@
   
 ## a Versions
 
-- Alpha Versions Will Be Being Made after pa7 Is Released
+- Alpha Versions Will Be Being Made after pa6 Is Released
