@@ -30,6 +30,7 @@ def boot():
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
     print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: tskerlan")
+    print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
 
 
 
