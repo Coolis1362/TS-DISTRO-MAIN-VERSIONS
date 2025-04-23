@@ -79,6 +79,8 @@ def main(): # Replace put_distro_name_here with the name of your distro
             print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
             print("tsdesktop - start TS-DESKTOP and end cmd.exe")
             print("switch user --USER - Switch to user USER")
+            print("shutdown --host_os - Shutdowns Windows")
+            print("ts-package - The Git Package Mananger")
             print("distro - Show current Distro")
 
         elif tsdistrocommand == "exit":
