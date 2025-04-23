@@ -27,13 +27,16 @@ def boot():
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
+    time.sleep(1)
     print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: tskerlan Booting print Code From tskerlan For Test...")
     try:
         printtext()
     except Exception as e:
         print(f"BOOT: ERROR: Error Code 634: {e}")
         return False
+    time.sleep(0.05)
     print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: tskerlan")
+    time.sleep(1)
     print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
     return True
 
