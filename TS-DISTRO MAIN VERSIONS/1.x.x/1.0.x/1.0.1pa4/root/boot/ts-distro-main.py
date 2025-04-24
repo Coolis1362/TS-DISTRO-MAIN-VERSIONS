@@ -12,8 +12,8 @@ def main(): # Replace put_distro_name_here with the name of your distro
     MAIN_USER_NAME = "ADMIN_USER"
     DISTRO_NAME_PREFIX = "TS-DISTRO"
     DISTRO_NAME = "MAIN" # Replace distro_name with the name of your distro
-    KERNEL_VERSION = "1.0.1pa2"
-    DISTRO_VERSION = "1.0.1pa2" # Replace This with Version name Of your Distor e.g TS-DISTRO MAIN >>1.0.1pa2<< (The >> and << Are Pointing to A Version Number As A Version number)
+    KERNEL_VERSION = "1.0.1pa5"
+    DISTRO_VERSION = "1.0.1pa4" # Replace This with Version name Of your Distor e.g TS-DISTRO MAIN >>1.0.1pa2<< (The >> and << Are Pointing to A Version Number As A Version number)
     print(f"Welcome To {DISTRO_NAME_PREFIX} {DISTRO_NAME} KERNEL VERSION: {KERNEL_VERSION} DISTRO VERSION: {DISTRO_VERSION}!")
     time.sleep(2)
     print("This is Based on TS-KERNEL 1.0.1pa2")
