@@ -1,45 +1,10 @@
 import time
 import os
 from ts_kernel_language.tskerlan import tskerlan
-import datetime
-from ts_kernel_language.grammer.print.print import printtext
+import bootloader.BOOT.boot
+from bootloader.BOOT.boot import boot
 import sys
 from shutdown_windows import shutdown_windows
-
-
-
-def boot():
-    print("starting BOOT...")
-    time.sleep(1)
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: Commands Booting help As Expanple...")
-    time.sleep(1)
-    try:
-        print("Commands:")
-        print("help - Show this help message")
-        print("exit - Exit the console")
-        print("clear - Clear the console")
-        print("whoami - Show the current user")
-        print("tskerlan - start The TS-KERNEL-LANAGUAGE Interpiler")
-        print("tsdesktop - start TS-DESKTOP and end cmd.exe")
-        print("switch user --USER - Switch to user USER")
-        print("distro - Show current Distro")
-        time.sleep(0.05)
-        print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: Commands")
-    except Exception as e:
-        print(f"BOOT: ERROR: Error Code 634: {e}")
-        return False
-    time.sleep(1)
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTING: tskerlan Booting print Code From tskerlan For Test...")
-    try:
-        printtext()
-    except Exception as e:
-        print(f"BOOT: ERROR: Error Code 634: {e}")
-        return False
-    time.sleep(0.05)
-    print("TIME:", time.time(), datetime.datetime.now(), "BOOTED: tskerlan")
-    time.sleep(1)
-    print("BOOT: BOOT has done botoing and testing, booting TS-KERNEL...")
-    return True
 
 
 
@@ -129,11 +94,14 @@ def main(): # Replace put_distro_name_here with the name of your distro
 
 
 if __name__ == "__main__": # DON'T REMOVE THIS LINE
-    if boot():
-        os.system("cls")
-        main() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
-    else:
-        print("BOOT Failed")
+    if bootloader.BOOT.boot.bootos() == "1":
+        if boot():
+            os.system("cls")
+            main() # REPLACE THIS LINE WITH THE NAME OF THE MAIN FUNCTION
+        else:
+         print("BOOT Failed")
+         sys.exit(0)
+    elif bootloader.BOOT.boot.bootos() == "2":
         sys.exit(0)
 
 
