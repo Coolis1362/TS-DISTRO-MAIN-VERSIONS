@@ -15,7 +15,7 @@
 - TS-KERNEL 1.0.1pa5
 - Added BOOT Bootloader As Bootloader
 
-## pa Versions
+## Upcoming pa Versions
 
 - pa5
 - pa6
