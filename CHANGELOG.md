@@ -12,12 +12,11 @@
 
 ## 1.0.1pa4
 
-- Upcoming
+- TS-KERNEL 1.0.1pa5
+- Added BOOT Bootloader As Bootloader
 
 ## pa Versions
 
-- pa3
-- pa4
 - pa5
 - pa6
 - pa7
