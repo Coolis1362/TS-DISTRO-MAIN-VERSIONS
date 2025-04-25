@@ -1,0 +1,3 @@
+@echo off
+
+echo TS-DESKTOP FOR TS-KERNEL 1.0.1pa2 to TS-KERNEL 1.0.1pa7 VERSION: 1.0.0
