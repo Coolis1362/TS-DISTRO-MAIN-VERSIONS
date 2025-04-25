@@ -5,6 +5,7 @@ import bootloader.BOOT.boot
 from bootloader.BOOT.boot import boot
 import sys
 from shutdown_windows import shutdown_windows
+import datetime
 
 
 
@@ -90,6 +91,8 @@ def main(): # Replace put_distro_name_here with the name of your distro
             os.system("git clone https://github.com/Coolis1362/ts-package-OFFICAL-PACKAGE-MANAGER")
             os.chdir("ts-package-OFFICAL-PACKAGE-MANAGER\\ts-package\\main")
             os.system("ts-package.bat")
+        elif tsdistrocommand == "time":
+            print(datetime.datetime.now())
 
 
 
